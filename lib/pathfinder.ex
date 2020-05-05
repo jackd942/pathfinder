@@ -1,6 +1,10 @@
 defmodule Pathfinder do
   alias Pathfinder.Rover
-  def hello do
-    :world
+
+  def run(string) do
+    string
+    |> split ...
+    |> filter ...
+    |> reduce
   end
 end
